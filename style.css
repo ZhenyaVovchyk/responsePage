@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Блок-контейнер + содержимое: blocks */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Блоки + содержимое: Block1, Block2, Block3, Block4 */
+
+.blocks {
+    width: 90%;
+    height: 90%;
+    background-color: cadetblue;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+    resize: both;
+}
+
+/*   */
+
+.blockName {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    border: 1px solid black;
+}
+
+/* блок1 + содержимое: inBlock1, inBlock2, inBlock3, inBlock4 */
+
+.block1 {
+    width: 50%;
+    height: 50%;
+    background-color: green;
+    position: absolute;
+    top: 2.5%;
+    left: 0;
+    right: 50%;
+    bottom: 2.5%;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.inBlock1 {
+    width: 50%;
+    height: 46%;
+    background-color: lawngreen;
+}
+
+.inBlock2 {
+    width: 50%;
+    height: 46%;
+    background-color: brown;
+    position: absolute;
+    top: 8.5%;
+    left: 50%;
+    right: 5%;
+    bottom: 5%;
+}
+
+.inBlock3 {
+    width: 50%;
+    height: 46%;
+    background-color: pink;
+    position: absolute;
+
+}
+
+.inBlock4 {
+    width: 50%;
+    height: 46%;
+    background-color: rebeccapurple;
+    position: absolute;
+    left: 50%;
+}
+
+/* блок2 + содержимое: inBlock5, inBlock6, inBlock7, inBlock8 */
+
+.block2 {
+    width: 50%;
+    height: 50%;
+    background-color: green;
+    position: absolute;
+    top: 2.5%;
+    left: 50%;
+    right: 2.5%;
+    bottom: 2.5%;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.inBlock5 {
+    width: 50%;
+    height: 49%;
+    position: absolute;
+    left: 50%;
+    bottom: 45%;
+}
+
+.inBlock6 {
+    width: 50%;
+    height: 46%;
+    position: absolute;
+    left: 50%;
+    top: 9%;
+    background-color: royalblue;
+}
+
+.inBlock7 {
+    width: 50%;
+    height: 46%;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background-color: darkred;
+
+}
+
+.inBlock8 {
+    width: 50%;
+    height: 46%;
+    left: 50%;
+    bottom: 0%;
+    background-color: red;
+    position: absolute;
+}
+
+/* блок3 + содержимое: inBlock9, inBlock10, inBlock11, inBlock12 */
+
+.block3 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    bottom: 0;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.inBlock9 {
+    width: 50%;
+    height: 49%;
+    position: absolute;
+    left: 50%;
+    bottom: 45%;
+}
+
+.inBlock10 {
+    width: 50%;
+    height: 46%;
+    position: absolute;
+    left: 50%;
+    top: 9%;
+    background-color: royalblue;
+}
+
+.inBlock11 {
+    width: 50%;
+    height: 46%;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background-color: darkred;
+
+}
+
+.inBlock12 {
+    width: 50%;
+    height: 46%;
+    left: 50%;
+    bottom: 0%;
+    background-color: red;
+    position: absolute;
+}
+
+/* блок4 + содержимое: inBlock12, inBlock14, inBlock15, inBlock16 */
+
+.block4 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 0;
+    right: 50%;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.inBlock13 {
+    width: 50%;
+    height: 49%;
+    position: absolute;
+    left: 50%;
+    bottom: 45%;
+}
+
+.inBlock14 {
+    width: 50%;
+    height: 46%;
+    position: absolute;
+    left: 50%;
+    top: 9%;
+    background-color: royalblue;
+}
+
+.inBlock15 {
+    width: 50%;
+    height: 46%;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background-color: darkred;
+
+}
+
+.inBlock16 {
+    width: 50%;
+    height: 46%;
+    left: 50%;
+    bottom: 0%;
+    background-color: red;
+    position: absolute;
+}
